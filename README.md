@@ -90,12 +90,11 @@ Happy Coding! 💻✨
     </footer>
 
     <script>
-        // Change text content dynamically
+
         document.getElementById("changeTextBtn").addEventListener("click", function() {
             document.getElementById("text").textContent = "The text has been changed!";
         });
 
-        // Modify CSS styles via JavaScript
         document.getElementById("toggleStyleBtn").addEventListener("click", function() {
             const textElement = document.getElementById("text");
             if (textElement.style.color === "blue") {
@@ -106,8 +105,6 @@ Happy Coding! 💻✨
                 textElement.style.fontSize = "20px";
             }
         });
-
-        // Add or remove an element when a button is clicked
         document.getElementById("addElementBtn").addEventListener("click", function() {
             const newElement = document.createElement("p");
             newElement.textContent = "This is a newly added paragraph!";
